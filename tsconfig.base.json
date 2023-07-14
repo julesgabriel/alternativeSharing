@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@odd-12-monorepo/core": ["libs/core/index.ts"],
+      "@odd-12-monorepo/state": ["libs/core/state/index.ts"],
+      "@odd-12-monorepo/interactors": ["libs/interactors/index.ts"],
+      "@odd-12-monorepo/presenters": ["libs/presenters/index.ts"],
+      "@odd-12-monorepo/shared": ["libs/shared/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
