@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
+    "@jnxplus/nx-boot-gradle": "^9.0.0",
     "@nx/cypress": "16.5.2",
     "@nx/eslint-plugin": "16.5.2",
     "@nx/jest": "16.5.2",

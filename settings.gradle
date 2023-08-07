@@ -1,0 +1,11 @@
+pluginManagement {
+  plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+    id 'io.spring.dependency-management' version "${springDependencyManagementVersion}"
+    id 'org.jetbrains.kotlin.jvm' version "${kotlinVersion}"
+    id 'org.jetbrains.kotlin.plugin.spring' version "${kotlinVersion}"
+    id 'io.github.khalilou88.jnxplus' version "${jnxplusGradlePluginVersion}"
+  }
+}
+rootProject.name = 'spring-boot-backend'
+include('packages:backend')
